@@ -236,11 +236,9 @@ text-align: center;
     display: flex;
 gap: 30px;
 }
-
 .employee{
     text-align: center;
     padding-top: 30px;
- 
 }
 .worker .name{
     font-weight: 500;
@@ -367,7 +365,6 @@ line-height: 1.7;
 color: rgba(255, 255, 255, 0.6);
 margin-top: 9px;
 }
-
 .adress .cont:hover,
 .adress .cont:focus{
     color:var(--accent-color);
