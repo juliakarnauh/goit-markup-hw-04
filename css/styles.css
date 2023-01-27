@@ -84,43 +84,29 @@ padding-top: 32px;
     margin: auto;
     gap:50px;
 }
-.evelope{
-    display: inline-block;
-    width:16px;
-    height:12px;
-    fill: #757575;
-    margin-right: 10px;
-}
-.evelope:hover,
-.evelope:focus{
-    fill: #2196F3;
-  
-}
-.vector{
- display: inline-block;
-    width:10px;
-    height:16px;
-    fill: #757575;
-    margin-right: 10px;
-}
-.vector:hover,
-.vector:focus{
-    fill: #2196F3;   
-}
 .contact .items{
     display:flex;
-    align-items: center;
-    color: var(--primary-text-color);
+    align-items: center; 
     font-weight: 500;
     font-size: 14px;
 line-height: 1.14;
 padding-top: 32px;
-padding-bottom: 32px;
+padding-bottom: 32px;}
+
+.contact-icon{
+    fill: #757575;
+    color: var(--primary-text-color);
 }
-.contact .items:hover,
-.contact .items:focus{
+.contact-icon:hover,
+.contact-icon:focus{
+    fill: #2196F3;
     color: var(--accent-color);
 }
+.evelope,
+ .vector{
+    margin-right: 10px;
+}
+
 .section{
     padding-top: 94px;
     padding-bottom: 94px;
@@ -316,7 +302,6 @@ text-align: center;
     display: flex;
     gap: 30px;
     margin-top: 50px;
-    padding-bottom: 94px;
 }
 .gang{
     width: 170px;
@@ -406,7 +391,7 @@ margin-bottom: 20px;
     background-color: var(--occasional-color);
     text-align: center;
     padding-top: 94px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .footer-media{
     display: flex;
